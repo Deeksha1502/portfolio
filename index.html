@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deeksha's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+   
+    <nav id="desktop-nav">
+      <div class="logo" ><a href="#profile">Home</a></div>
+      <div>
+        <ul class="nav-links">
+
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Home</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#profile" onclick="toggleMenu()">Home</a></li>
+
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#certifications" onclick="toggleMenu()">Certifications</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contacts" onclick="toggleMenu()">Projects</a></li>
+
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+       <img src="./assets/1st.jpeg" alt="profile picture" />
+       <!-- class="firstimage" -->
+     </div>
+        <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Deeksha Deepak</h1>
+        <p class="section__text__p2">Tech Enthusiast, Coder</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Deeksha-resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+<!--      
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/deeksha-deepak-52009a203/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Deeksha1502'"
+          />
+        </div> -->
+        
+       
+      </div>
+    
+    </section>
+
+
+    <section id="about">
+      
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/Deeksha.jpeg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Persistent Systems <br />Learning Internship</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>12th - 93.67%<br />10th - 95.67%</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hi!, I am Deeksha, currently pursuing B. E in CSE from Bangalore Institute of Technology with a current cgpa of 8.7 I am passionate about coding and I have built projects in the field of frontend development.I've completed an intership from Persistent Systems which has helped me in gaining technical skills. I've completed my 12th from Base Pu College and 10th from Presidency School.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="skills">
+      <p class="section__text__p1"></p>
+      <h1 class="title">Technical Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+               
+                <div>
+                  <h3><li>HTML5</li></h3>
+                  <!-- <p>Experienced</p> -->
+                </div>
+              </article>
+              <article>
+               
+                <div>
+                  <h3><li>CSS</li></h3>
+                  <!-- <p>Experienced</p> -->
+                </div>
+              </article>
+              <article>
+               
+                <div>
+                  <h3><li>Bootstrap</li></h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                
+                <div>
+                  <h3><li>JavaScript</li></h3>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+              <article>
+               
+                <div>
+                  <h3><li>ReactJS</li></h3>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+              <article>
+               
+                <div>
+                  <h3><li>Material UI</li></h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Cybersecurity</h2>
+            <div class="article-container">
+              <article>
+               
+                <div>
+                  <h3><li>Risk identification</li></h3>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+              <article>
+              
+                <div>
+                  <h3><li>Network protocols</li></h3>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+             
+              <article>
+             
+                <div>
+                  <h3><li>Threat Analysis</li></h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+             
+                <div>
+                  <h3><li>Operating Systems</li></h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#certifications'"
+      />
+    </section>
+
+    <section id="certifications">
+      
+
+<h1 class="title">Certifications</h1>
+<div class="glass-morphism-container">
+  <table>
+    <tr>
+      <td class="glass-morphism-cell">
+        <img src="./assets/web.jpg" alt="Image 1" height="300px" width="400px">
+      </td>
+      <td class="glass-morphism-cell">
+        <img src="./assets/course-1.jpg" alt="Image 2" height="300px" width="440px">
+      </td>
+    </tr>
+    <tr>
+      <td class="glass-morphism-cell">
+        <img src="./assets/course-2.jpg" alt="Image 3" height="300px" width="400px">
+      </td>
+      <td class="glass-morphism-cell">
+        <img src="./assets/course-3.jpg" alt="Image 4" height="300px" width="440px">
+      </td>
+    </tr>
+  </table>
+</div>
+<img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+
+
+    </section>
+   
+
+
+
+
+    <section id="projects">
+      <p class="section__text__p1"></p>
+      <!-- <br>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br> -->
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <!-- <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              /> -->
+              
+            </div>
+            <h3 class="experience-sub-title project-title">Random Quote Generator</h3>
+            <div class="btn-container">
+              <p id="p1">
+                Designed and developed a web application that generates any random inspirational quotes using the Quotable API.
+  Utilized HTML, CSS, JavaScript, and the React library to create a responsive and interactive user interface for the application.
+  </p>
+  <br>
+              <!-- <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button> -->
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://quote-generator-lite.vercel.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <!-- <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              /> -->
+            </div>
+            <h2 class="experience-sub-title project-title">Analog Digital Clock</h2>
+            <div class="btn-container">
+              <p id="p2">Implemented rotating clock hands (hour, minute, and second)
+Used CSS transitions to simulate the passage of time.
+Utilized avaScript to dynamically update the clocks time, ensuring accurate timekeeping based on the users device time settings</p>
+              <!-- <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button> -->
+              <br>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://analog-digital-clock-eta.vercel.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <!-- <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              /> -->
+            </div>
+            <h2 class="experience-sub-title project-title">Alarm Sync (JAVA)</h2>
+            <div class="btn-container">
+              <p id="p3">Designed and developed a Java-based application that allows users to set and manage alarms conveniently.
+                Created an intuitive and user-friendly graphical user interface (GUI) that enables users to easily set alarm times easily, or set them manually
+                Incorporated standard dismiss functionalities, allowing users to stop the alarm when they are no longer needed.</p>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contacts'"
+      />
+    </section>
+
+    <!-- <section id="contacts">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1> -->
+      <!-- <div class="contact-info-upper-container"> -->
+        <!-- <ol>
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+         <li> <p><a href="mailto:examplemail@gmail.com">deekshad1502@gmail.com</a></p></li>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <li><p><a href="https://www.linkedin.com/in/deeksha-deepak-52009a203/">LinkedIn</a></p></li>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/github.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <li><p><a href="https://github.com/Deeksha1502'">Github</a></p></li>
+        </div>
+      </ol> -->
+
+        
+
+        
+      <!-- </div>
+    </section> -->
+
+    <section id="contact">
+      <div class="container ">
+          <h1 class="title">Contact Me</h1><br><br>
+          <div class="contact-links">
+              <a href="mailto:your.email@example.com" class="contact-link">Email</a>
+              <a href="https://www.linkedin.com/in/yourprofile" class="contact-link">LinkedIn</a>
+              <a href="https://github.com/yourusername" class="contact-link">GitHub</a>
+          </div>
+          <br>
+          <br>
+      </div>
+  </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#profile">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Deeksha Deepak.</p>
+    </footer>
+    <script src="script.js"></script>
+ 
+  </body>
+</html>
